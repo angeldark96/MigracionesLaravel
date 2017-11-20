@@ -11,5 +11,11 @@ composer update
 
 php artisan make:migration alter_profiles_table --table=profiles
 
+## luego de instalar el cviebrock/eloquent-sluggable
+
+php artisan config:cache
+composer dump-autoload
+
+
 
 
