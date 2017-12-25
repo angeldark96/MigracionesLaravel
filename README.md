@@ -14,7 +14,6 @@ php artisan make:migration alter_profiles_table --table=profiles
 
 
 ## Clonar un proyecto laravel
->>>>>>> a48655b2697ab2df4358b7f1fe5677d6372eb051
 
 1. Te situas en tu servidor de apache y clonas el archivo git clone htt.. 
 
@@ -37,5 +36,20 @@ php artisan make:migration alter_profiles_table --table=profiles
 
 php artisan config:cache
 composer dump-autoload
+
+## Instalar y configurar LARAVEL en AWS
+
+- composer update --no-dev
+- sudo nano .env
+- sudo chmod 755 -R routes storage
+- sudo chmod 755 -r routes storage
+- php artisan key:generate
+
+- cd en su proyecto Laravel.
+- sudo chmod -R 777 storage
+- sudo chmod -R 777 bootstrap/cache
+
+- sudo service httpd restart
+
   
 
