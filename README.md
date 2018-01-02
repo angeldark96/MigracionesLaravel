@@ -51,5 +51,8 @@ composer dump-autoload
 
 - sudo service httpd restart
 
+## BD de blog - delete files (ojo)
+![](https://i.imgur.com/4HvZ8Pq.png)
+
   
 
