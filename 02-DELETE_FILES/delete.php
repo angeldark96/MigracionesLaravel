@@ -20,3 +20,5 @@ public function destroy($id)
     return redirect()->route('posts.index')-> with('mensaje1',"Se ha eliminado a $post->title correctamente ");
 }
 
+
+
